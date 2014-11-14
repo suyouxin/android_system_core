@@ -318,6 +318,12 @@ enum {
     HAL_PIXEL_FORMAT_YCbCr_422_SP       = 0x10, // NV16
     HAL_PIXEL_FORMAT_YCrCb_420_SP       = 0x11, // NV21
     HAL_PIXEL_FORMAT_YCbCr_422_I        = 0x14, // YUY2
+
+    /* Marvell extended */
+    HAL_PIXEL_FORMAT_YCbCr_420_P        = 0x13, // YUV420, I420
+    HAL_PIXEL_FORMAT_YCbCr_420_I        = 0x15,
+    HAL_PIXEL_FORMAT_CbYCrY_422_I       = 0x16, // UYVY
+    HAL_PIXEL_FORMAT_YCbCr_420_SP_MRVL  = 0x2A, // NV12
 };
 
 /*
